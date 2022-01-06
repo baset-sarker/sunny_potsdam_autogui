@@ -1,25 +1,3 @@
-
-
-
-# for i in range(10):
-#     pyautogui.moveTo(100, 100, duration=0.25)
-#     pyautogui.moveTo(200, 100, duration=0.25)
-#     pyautogui.moveTo(200, 200, duration=0.25)
-#     pyautogui.moveTo(100, 200, duration=0.25)
-
-
-# print('Press Ctrl-C to quit.')
-# try:
-#     while True:
-#         #pos = pyautogui.position()
-#         pos = pyautogui.displayMousePosition()
-#         print(pos)
-#         # TODO: Get and print the mouse coordinates.
-
-# except KeyboardInterrupt:
-#     print('\nDone.')
-
-
 from pynput import mouse
 
 def on_click(x, y, button, pressed):
